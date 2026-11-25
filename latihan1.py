@@ -17,8 +17,8 @@ def fibonacci(n):
     return deret
 
 def volumeTabung(r, t, phi=3.14):
-    volume = phi * r * r * t
-    return volume
+    volume_tabung = phi * r * r * t
+    return volume_tabung
 
 def luasPermukaanTabung(r, t, phi=3.14):
     luas = 2 * phi * r * (r + t)
@@ -43,10 +43,10 @@ else:
 print("\n=== Nomor 2 : Volume Tabung ===")
 r = float(input("Masukkan jari-jari (r): "))
 t = float(input("Masukkan tinggi (t): "))
-volume = volumeTabung(r, t)
+volume_tabung = volumeTabung(r, t)
 luas = luasPermukaanTabung(r, t)
 
-print(f"Volume tabung = {volume}")
+print(f"Volume tabung = {volume_tabung}")
 print(f"Luas permukaan tabung = {luas}")
 
 # nomor 3
